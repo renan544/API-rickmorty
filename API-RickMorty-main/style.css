@@ -1,0 +1,160 @@
+body {
+  background-color: #111;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: #000;
+}
+
+header img {
+  width: 200px;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0.5rem 0;
+  color: #00bfff;
+}
+
+p {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+main {
+  padding: 2rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.card img {
+  width: 100%;
+  display: block;
+}
+
+.card .info {
+  padding: 1rem;
+}
+
+.card h3 {
+  margin: 0 0 0.5rem;
+  font-size: 1.2rem;
+  color: #00bfff;
+}
+
+.card p {
+  margin: 0.2rem 0;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+button#load-more {
+  padding: 0.7rem 1.5rem;
+  background-color: #00bfff;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+
+button#load-more:hover {
+  background-color: #0099cc;
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #000;
+  padding: 2rem;
+}
+
+.hero-text {
+  flex: 1;
+  color: white;
+  max-width: 500px;
+  padding: 1rem;
+}
+
+.hero-text .logo {
+  width: 200px;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero-text .highlight {
+  color: #00bfff;
+}
+
+.hero-text p {
+  color: #ccc;
+  margin: 0.5rem 0;
+}
+
+.hero-text .btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.6rem 1.2rem;
+  background-color: #00bfff;
+  color: white;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.hero-text .btn:hover {
+  background-color: #0099cc;
+}
+
+.hero-text .extra {
+  margin-top: 1rem;
+  color: #00bfff;
+  font-size: 0.9rem;
+}
+
+.hero-img {
+  flex: 1;
+  text-align: center;
+}
+
+.hero-img img {
+  max-width: 800px;  
+  width: 50%;
+  height: auto;
+}
+
